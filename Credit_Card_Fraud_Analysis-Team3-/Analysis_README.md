@@ -40,7 +40,7 @@
 
 ### Create a Jupyter Notebook:
 
-- Establish a shared Jupyter Notebook environment using a cloud-based service like Google Colab, JupyterHub, or a shared server.
+- Establish a shared Jupyter Notebook environment in VS Code. 
 
 ### Import Necessary Libraries:
 
