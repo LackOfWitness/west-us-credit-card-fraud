@@ -67,28 +67,28 @@ This dataset consists of credit card transactions in the western United States. 
   - Ensure data types are correct, such as converting date columns to datetime format.
   - Remove any duplicate entries if necessary.
 
-### Task 2: Calculate Percentage of Fraudulent Transactions
+### Task 2: Calculate Percentage of Fraudulent Transactions (Kim)
 
 - **Assigned to Person B:**
   - Calculate the percentage of transactions that are fraudulent by comparing the number of fraudulent transactions to the total number of transactions.
 
-### Task 3: Analyze the Timeline of Transactions
+### Task 3: Analyze the Timeline of Transactions (Michael)
 
 - **Assigned to Person C:**
   - Create a timeline plot of the transaction data to observe trends over time, focusing on identifying any patterns or changes in transaction volume.
 
-### Task 4: Analyze Merchants and Categories with Higher Fraud Incidence
+### Task 4: Analyze Merchants and Categories with Higher Fraud Incidence (Joseph & Micah)
 
 - **Assigned to Person D:**
   - Identify which merchants and categories have the highest rates of fraud by calculating fraud incidence for each.
 
-### Task 5: Analyze Relationship Between Transaction Amount and Fraud Likelihood
+### Task 5: Analyze Relationship Between Transaction Amount and Fraud Likelihood (Sergeu)
 
 - **Assigned to Person E:**
   - Analyze the distribution of transaction amounts for fraudulent versus non-fraudulent transactions.
   - Use statistical tests or visualizations to explore any relationships between transaction amount and the likelihood of fraud.
 
-### Task 6: Analyze Relationship between Google API and dataset
+### Task 6: Analyze Relationship between Google API and dataset (Sergei)
 
   - Using Google API, locate closest police station to dataset merchant location and measure distance. 
 
