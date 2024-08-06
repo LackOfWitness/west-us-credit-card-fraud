@@ -60,7 +60,7 @@ This dataset consists of credit card transactions in the western United States. 
 
 ## Step 2: Assign Tasks
 
-### Task 1: Data Cleaning and Preprocessing
+### Task 1: Data Cleaning and Preprocessing (Micah)
 
 - **Assigned to Person A:**
   - Check for missing values and handle them appropriately.
@@ -82,7 +82,7 @@ This dataset consists of credit card transactions in the western United States. 
 - **Assigned to Person D:**
   - Identify which merchants and categories have the highest rates of fraud by calculating fraud incidence for each.
 
-### Task 5: Analyze Relationship Between Transaction Amount and Fraud Likelihood (Sergeu)
+### Task 5: Analyze Relationship Between Transaction Amount and Fraud Likelihood (Sergei)
 
 - **Assigned to Person E:**
   - Analyze the distribution of transaction amounts for fraudulent versus non-fraudulent transactions.
@@ -94,26 +94,26 @@ This dataset consists of credit card transactions in the western United States. 
 
 ## Step 3: Collaborate and Document Findings
 
-### Combine Analysis:
+### Combine Analysis: (Sergei)
 
 - Compile each member's findings into the shared Jupyter Notebook.
 
-### Interpret Results:
+### Interpret Results: (Team Collaboration)
 
 - Provide a brief interpretation of findings for each section of the analysis.
 
-### Document Insights:
+### Document Insights: (Sergei)
 
 - Summarize major insights from each analysis section to highlight key findings.
 
-### Review and Present:
+### Review and Present: (Team Collaboration)
 
 - Review the notebook together to ensure clarity and correctness.
 - Prepare a presentation that highlights the key findings and implications.
 
 ## Step 4: Additional Steps for Presentation
 
-### Create Visualizations:
+### Create Visualizations: (Task Analysis Specific)
 
 - Develop polished charts and graphs using `matplotlib` or `seaborn` for inclusion in the presentation.
 
@@ -121,7 +121,7 @@ This dataset consists of credit card transactions in the western United States. 
 
 - Use presentation software PowerPoint to create slides that capture key points and visualizations.
 
-### Rehearse Presentation:
+### Rehearse Presentation: (Team Collaboration)
 
 - Each team member should practice presenting their section of the analysis to ensure a smooth delivery.
 
