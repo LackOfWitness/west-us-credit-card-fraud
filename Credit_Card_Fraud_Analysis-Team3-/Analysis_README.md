@@ -88,6 +88,10 @@ This dataset consists of credit card transactions in the western United States. 
   - Analyze the distribution of transaction amounts for fraudulent versus non-fraudulent transactions.
   - Use statistical tests or visualizations to explore any relationships between transaction amount and the likelihood of fraud.
 
+### Task 6: Analyze Relationship between Google API and dataset
+
+  - Using Google API, locate closest police station to dataset merchant location and measure distance. 
+
 ## Step 3: Collaborate and Document Findings
 
 ### Combine Analysis:
