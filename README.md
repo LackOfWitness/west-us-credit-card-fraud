@@ -1,4 +1,3 @@
-![alt text](Project1_ReadME_graphic.png)
 
 # Western United States Credit Card Analysis
 
