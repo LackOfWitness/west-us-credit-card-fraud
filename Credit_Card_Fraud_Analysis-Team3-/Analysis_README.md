@@ -83,12 +83,19 @@ This dataset consists of credit card transactions in the western United States. 
   
 - **Time Series Line Plot:** Create a line plot showing the number of transactions over time. This can help identify trends, seasonality, or any sudden spikes in transaction volume.
 
+-- **Patterns:** Look for seasonal trends (by season), around holidays and post COVID trends. 
+
 ### Task 4: Analyze Merchants and Categories with Higher Fraud Incidence (Joseph & Micah)
 
 - **Assigned to Person D:**
-  - Identify which merchants and categories have the highest rates of fraud by calculating fraud incidence for each.
+  - Identify which categories have the highest rates of fraud by calculating fraud incidence for each. 
 
-  - **Bar Chart:** Create bar charts to display the fraud rate for each merchant and category. This can help highlight which merchants and categories have higher fraud rates.
+  - Top 10 Merchant and show fraud amounts. 
+
+  - **Bar Chart:** Create bar charts to display the fraud rate for each category. This can help highlight which categories have highest fraud amounts.
+
+  - **Bar Chart:** Create bar charts to display the fraud rate for each state. This can help highlight which states have higher fraud amounts.
+
 
 ### Task 5: Analyze Relationship Between Transaction Amount and Fraud Likelihood (Sergei)
 
