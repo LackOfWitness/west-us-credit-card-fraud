@@ -18,7 +18,6 @@ This dataset consists of credit card transactions in the western United States. 
 ## Demographic Insights:
 
 - Does the age of the cardholder correlate with the likelihood of fraud?
-- Are certain job titles more associated with fraudulent transactions?
 
 ## Geographical Trends:
 
@@ -72,18 +71,25 @@ This dataset consists of credit card transactions in the western United States. 
 ### Task 2: Calculate Percentage of Fraudulent Transactions (Kim)
 
 - **Assigned to Person B:**
+
   - Calculate the percentage of transactions that are fraudulent by comparing the number of fraudulent transactions to the total number of transactions.
 
-  - **Pie Chart or Bar Chart:** Use a pie chart or bar chart to show the proportion of fraudulent versus non-fraudulent transactions. This provides a clear visual representation of the percentage of fraud.
+  - **Bar Chart:** Use a bar chart to show the proportion of fraudulent versus non-fraudulent transactions by category. This provides a clear visual representation of the percentage of fraud.
+
+  - **Bar Chart:** Use a bar chart to show the proportion of fraudulent versus non-fraudulent transactions by state. This provides a clear visual representation of the percentage of fraud.
+
 
 ### Task 3: Analyze the Timeline of Transactions (Michael)
 
 - **Assigned to Person C:**
-  - Create a timeline plot of the transaction data to observe trends over time, focusing on identifying any patterns or changes in transaction volume.
+
+- Create a timeline plot of the transaction data to observe trends over time, focusing on identifying any patterns or changes in transaction volume.
   
 - **Time Series Line Plot:** Create a line plot showing the number of transactions over time. This can help identify trends, seasonality, or any sudden spikes in transaction volume.
 
--- **Patterns:** Look for seasonal trends (by season), around holidays and post COVID trends. 
+- **Bar Chart** Create a bar chart to show when fraudulent transactions occur during the day. 
+
+- **Patterns:** Look for seasonal trends (by season), around holidays and post COVID trends. 
 
 ### Task 4: Analyze Merchants and Categories with Higher Fraud Incidence (Joseph & Micah)
 
@@ -103,21 +109,22 @@ This dataset consists of credit card transactions in the western United States. 
   - Analyze the distribution of transaction amounts for fraudulent versus non-fraudulent transactions.
   - Use statistical tests or visualizations to explore any relationships between transaction amount and the likelihood of fraud.
 
+- **Scatter Plot** plot age grouping and mean of fraudelent amouts. 
+
 - **Box Plot :** Use box plot to compare the distribution of transaction amounts between fraudulent and non-fraudulent transactions. 
 
-### Task 6: Analyze Relationship between Geopafy API and dataset (Sergei)
+### Task BONUS: Analyze Relationship between Geopafy API and dataset (Sergei)
 
   - Using Geopafy API, locate closest police station to dataset merchant location and measure distance. 
 
   - Create a histogram to display the distribution of distances from merchant locations to the nearest police station. This will provide a straightforward view of how these distances vary across the dataset.
 
-- Calculate a simple correlation coefficient between the distance to the nearest police station and the likelihood of fraud (e.g., Pearson or Spearman correlation). This will provide an indication of whether there is any linear relationship between proximity to police stations and fraud occurrence.
-
+  - Calculate a simple correlation coefficient between the distance to the nearest police station and the likelihood of fraud (e.g., Pearson or Spearman correlation). This will provide an indication of whether there is any linear relationship between proximity to police stations and fraud occurrence.
 
 
 ## Step 3: Collaborate and Document Findings
 
-### Combine Analysis: (Sergei)
+### Combine Analysis: README File and Project Tracking (Sergei)
 
 - Compile each member's findings into the shared Jupyter Notebook.
 
