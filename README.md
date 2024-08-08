@@ -1,3 +1,4 @@
+![alt text](Credit_Card_Fraud_Analysis-Team3-/Project1_ReadME_graphic.png)
 
 # Western United States Credit Card Analysis
 
