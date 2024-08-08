@@ -49,7 +49,7 @@ This dataset consists of credit card transactions in the western United States. 
 
 ### Import Necessary Libraries:
 
-- Ensure all team members have access to required libraries, such as `pandas`, `numpy`, `matplotlib`, and `seaborn`.
+- Ensure all team members have access to required libraries, such as `pandas`, `numpy`, `matplotlib`. 
 - Install any additional libraries needed for the analysis.
 
 ### Load the Dataset:
