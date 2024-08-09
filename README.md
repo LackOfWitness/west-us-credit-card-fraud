@@ -18,7 +18,6 @@ This dataset consists of credit card transactions in the western United States. 
 ## Demographic Insights:
 
 - Does the age of the cardholder correlate with the likelihood of fraud?
-- Are certain job titles more associated with fraudulent transactions?
 
 ## Geographical Trends:
 
@@ -50,7 +49,7 @@ This dataset consists of credit card transactions in the western United States. 
 
 ### Import Necessary Libraries:
 
-- Ensure all team members have access to required libraries, such as `pandas`, `numpy`, `matplotlib`, and `seaborn`.
+- Ensure all team members have access to required libraries, such as `pandas`, `numpy`, `matplotlib`. 
 - Install any additional libraries needed for the analysis.
 
 ### Load the Dataset:
@@ -62,55 +61,62 @@ This dataset consists of credit card transactions in the western United States. 
 
 ### Task 1: Data Cleaning and Preprocessing (Micah)
 
-- **Assigned to Person A:**
-  - Check for missing values and handle them appropriately.
-  - Ensure data types are correct, such as converting date columns to datetime format.
-  - Remove any duplicate entries if necessary.
+- Check for missing values and handle them appropriately.
+- Ensure data types are correct, such as converting date columns to datetime format.
+- Remove any duplicate entries if necessary.
 
 - **Descriptive Statistics:** Summarize the dataset using descriptive statistics (mean, median, mode, etc.) to understand the data distribution and detect any anomalies or outliers.
 
 ### Task 2: Calculate Percentage of Fraudulent Transactions (Kim)
 
-- **Assigned to Person B:**
-  - Calculate the percentage of transactions that are fraudulent by comparing the number of fraudulent transactions to the total number of transactions.
+- Calculate the percentage of transactions that are fraudulent by comparing the number of fraudulent transactions to the total number of transactions.
 
-  - **Pie Chart or Bar Chart:** Use a pie chart or bar chart to show the proportion of fraudulent versus non-fraudulent transactions. This provides a clear visual representation of the percentage of fraud.
+- **Bar Chart:** Use a bar chart to show the proportion of fraudulent versus non-fraudulent transactions by category. This provides a clear visual representation of the percentage of fraud.
+
+- **Bar Chart:** Use a bar chart to show the proportion of fraudulent versus non-fraudulent transactions by state. This provides a clear visual representation of the percentage of fraud.
+
 
 ### Task 3: Analyze the Timeline of Transactions (Michael)
 
-- **Assigned to Person C:**
-  - Create a timeline plot of the transaction data to observe trends over time, focusing on identifying any patterns or changes in transaction volume.
+- Create a timeline plot of the transaction data to observe trends over time, focusing on identifying any patterns or changes in transaction volume.
   
 - **Time Series Line Plot:** Create a line plot showing the number of transactions over time. This can help identify trends, seasonality, or any sudden spikes in transaction volume.
 
+- **Bar Chart** Create a bar chart to show when fraudulent transactions occur during the day. 
+
+- **Patterns:** Look for seasonal trends (by season), around holidays and post COVID trends. 
+
 ### Task 4: Analyze Merchants and Categories with Higher Fraud Incidence (Joseph & Micah)
 
-- **Assigned to Person D:**
-  - Identify which merchants and categories have the highest rates of fraud by calculating fraud incidence for each.
+- Identify which categories have the highest rates of fraud by calculating fraud incidence for each. 
 
-  - **Bar Chart:** Create bar charts to display the fraud rate for each merchant and category. This can help highlight which merchants and categories have higher fraud rates.
+- Top 10 Merchant and show fraud amounts. 
+
+- **Bar Chart:** Create bar charts to display the fraud rate for each category. This can help highlight which categories have highest fraud amounts.
+
+- **Bar Chart:** Create bar charts to display the fraud rate for each state. This can help highlight which states have higher fraud amounts.
+
 
 ### Task 5: Analyze Relationship Between Transaction Amount and Fraud Likelihood (Sergei)
 
-- **Assigned to Person E:**
-  - Analyze the distribution of transaction amounts for fraudulent versus non-fraudulent transactions.
-  - Use statistical tests or visualizations to explore any relationships between transaction amount and the likelihood of fraud.
+- Analyze the distribution of transaction amounts for fraudulent versus non-fraudulent transactions.
+
+- Use statistical tests or visualizations to explore any relationships between transaction amount and the likelihood of fraud.
+
+- **Scatter Plot** plot age grouping and mean of fraudelent amouts. 
 
 - **Box Plot :** Use box plot to compare the distribution of transaction amounts between fraudulent and non-fraudulent transactions. 
 
-### Task 6: Analyze Relationship between Geopafy API and dataset (Sergei)
+### Task BONUS: Analyze Relationship between Geopafy API and dataset (Sergei)
 
-  - Using Geopafy API, locate closest police station to dataset merchant location and measure distance. 
+- Using Geopafy API, locate closest police station to dataset merchant location and measure distance. 
 
-  - Create a histogram to display the distribution of distances from merchant locations to the nearest police station. This will provide a straightforward view of how these distances vary across the dataset.
-
-- Calculate a simple correlation coefficient between the distance to the nearest police station and the likelihood of fraud (e.g., Pearson or Spearman correlation). This will provide an indication of whether there is any linear relationship between proximity to police stations and fraud occurrence.
-
+- Create a histogram to display the distribution of distances from merchant locations to the nearest police station. This will provide a straightforward view of how these distances vary across the dataset.
 
 
 ## Step 3: Collaborate and Document Findings
 
-### Combine Analysis: (Sergei)
+### Combine Analysis: README File and Project Tracking (Sergei)
 
 - Compile each member's findings into the shared Jupyter Notebook.
 
@@ -140,4 +146,3 @@ This dataset consists of credit card transactions in the western United States. 
 ### Rehearse Presentation: (Team Collaboration)
 
 - Each team member should practice presenting their section of the analysis to ensure a smooth delivery.
-
