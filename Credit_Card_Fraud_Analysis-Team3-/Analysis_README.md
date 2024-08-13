@@ -82,8 +82,6 @@ This dataset consists of credit card transactions in the western United States. 
   
 - **Time Series Line Plot:** Create a line plot showing the number of transactions over time. This can help identify trends, seasonality, or any sudden spikes in transaction volume.
 
-- **Bar Chart** Create a bar chart to show when fraudulent transactions occur during the day. 
-
 - **Patterns:** Look for seasonal trends (by season), around holidays and post COVID trends. 
 
 ### Task 4: Analyze Merchants and Categories with Higher Fraud Incidence (Joseph & Micah)
