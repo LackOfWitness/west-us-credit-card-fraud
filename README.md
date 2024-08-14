@@ -17,27 +17,25 @@ This dataset consists of credit card transactions in the western United States. 
 
 ## Demographic Insights:
 
-- Does the age of the cardholder correlate with the likelihood of fraud?
+- What cardholder age group correlates with the likelihood of fraud?
 
 ## Geographical Trends:
 
-- Which cities or states have the highest number of fraudulent transactions?
+- Which States have the highest number of fraudulent transactions?
 - Is there a pattern in the geographical location of fraudulent transactions relative to the cardholder's location?
 
 ## Temporal Patterns:
 
-- Are there specific times or days with higher instances of fraud?
-- How does the transaction time relate to the likelihood of fraud?
+- Are there specific month-year combinations with higher instances of fraud?
 
 ## Transaction Characteristics:
 
 - How do transaction amounts differ between fraudulent and non-fraudulent transactions?
 - Are certain transaction categories more prone to fraud?
 
-## Merchant and Transaction Location:
+## Police Station Location proximity to fraudulent transaction location:
 
-- Is there a significant distance between transaction and merchant location in fraudulent transactions compared to non-fraudulent ones?
-
+- Is there a significant distance between fraudulent transactions and closest police station location?
 
 # Group 3 Tasks 
 
@@ -78,23 +76,21 @@ This dataset consists of credit card transactions in the western United States. 
 
 ### Task 3: Analyze the Timeline of Transactions (Michael)
 
-- Create a timeline plot of the transaction data to observe trends over time, focusing on identifying any patterns or changes in transaction volume.
+- Create a **Timeline Series Line Plot** of the transaction data to observe trends over time, focusing on identifying any patterns or changes in fraudulent average transaction amounts. 
   
-- **Time Series Line Plot:** Create a line plot showing the number of transactions over time. This can help identify trends, seasonality, or any sudden spikes in transaction volume.
+- **Time Series Line Plot:** Create a line plot showing the volume of transactions over time. This can help identify trends, seasonality, or any sudden spikes in transaction volume.
 
-- **Bar Chart** Create a bar chart to show when fraudulent transactions occur during the day. 
-
-- **Patterns:** Look for seasonal trends (by season), around holidays and post COVID trends. 
+- **Patterns:** Look for seasonal trends (by season), around holidays and COVID shutdown trends. 
 
 ### Task 4: Analyze Merchants and Categories with Higher Fraud Incidence (Joseph & Micah)
 
-- Identify which categories have the highest rates of fraud by calculating fraud incidence for each. 
+- Identify which top 10 merchants have the highest rates of fraud by calculating fraud incidences for each. Also capture the categories of these merchants and the states where the frauds occured.    
 
-- Top 10 Merchant and show fraud amounts. 
+- **Bar Chart:** Create bar chart to display the fraud count for each top 10 merchant. This helps to illustrate the distribution of fraudulent transactions across merchants. By color-coding the bars according to the merchants' categories, the plot also provides insight into which categories of merchants are more frequently involved in fraudulent activities. 
 
-- **Bar Chart:** Create bar charts to display the fraud rate for each category. This can help highlight which categories have highest fraud amounts.
+- **Bar Chart:** Create bar charts to display the fraud rates for each state and by category. This can help highlight which states and categories have higher fraud amounts.
 
-- **Bar Chart:** Create bar charts to display the fraud rate for each state. This can help highlight which states have higher fraud amounts.
+- **Map Plot:** visualizes data on fraudulent transactions across different geographic locations. This provides insights into where fraud is most concentrated by displaying the number of fraudulent transactions and total transaction amounts on an interactive map, with the ability to distinguish between different states through color coding. This is useful for identifying geographic hotspots of fraudulent activity and understanding regional patterns.
 
 
 ### Task 5: Analyze Relationship Between Transaction Amount and Fraud Likelihood (Sergei)
@@ -137,12 +133,13 @@ This dataset consists of credit card transactions in the western United States. 
 
 ### Create Visualizations: (Task Analysis Specific)
 
-- Develop polished charts and graphs using `matplotlib` or `seaborn` for inclusion in the presentation.
+- Develop polished charts and graphs using `matplotlib` or `hvplot` for inclusion in the presentation.
 
-### Develop Presentation Slides:
+### Develop Presentation Slides: (Kim)
 
 - Use presentation software PowerPoint to create slides that capture key points and visualizations.
 
 ### Rehearse Presentation: (Team Collaboration)
 
-- Each team member should practice presenting their section of the analysis to ensure a smooth delivery.
+- Each team member presents their section of the analysis to ensure a smooth delivery.
+
