@@ -47,13 +47,13 @@ This dataset consists of credit card transactions in the western United States. 
 
 ### Import Necessary Libraries:
 
-- Ensure all team members have access to required libraries, such as `pandas`, `numpy`, `matplotlib`. 
+- Ensure all team members have access to required libraries: `pandas`, `numpy`, `matplotlib.pyplot`, `matplotlib.patches`, `seaborn`, `hvplot.pandas`, `panel`, `datetime`, `statsmodels.api`, and `requests`.
 - Install any additional libraries needed for the analysis.
 
 ### Load the Dataset:
 
 - Load the dataset into the notebook using `pandas`.
-- Decide whether to utilize VS Code version control branching to provide code using branching. 
+- Utilize VS Code version control branching to provide code using branching. 
 
 ## Step 2: Assign Tasks
 
