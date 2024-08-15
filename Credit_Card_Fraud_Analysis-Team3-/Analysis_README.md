@@ -88,7 +88,7 @@ This dataset consists of credit card transactions in the western United States. 
 
 - **Bar Chart:** Create bar chart to display the fraud count for each top 10 merchant. This helps to illustrate the distribution of fraudulent transactions across merchants. By color-coding the bars according to the merchants' categories, the plot also provides insight into which categories of merchants are more frequently involved in fraudulent activities. 
 
-- **Bar Chart:** Create bar charts to display the fraud rates for each state and by category. This can help highlight which states and categories have higher fraud amounts.
+- **Box Plot Wisker Chart:** Create a wisker box plot chart to show the distribution of fraud counts per merchant in the dataset. 
 
 - **Map Plot:** visualizes data on fraudulent transactions across different geographic locations. This provides insights into where fraud is most concentrated by displaying the number of fraudulent transactions and total transaction amounts on an interactive map, with the ability to distinguish between different states through color coding. This is useful for identifying geographic hotspots of fraudulent activity and understanding regional patterns.
 
