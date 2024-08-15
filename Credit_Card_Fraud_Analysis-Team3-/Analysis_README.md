@@ -71,14 +71,22 @@ This dataset consists of credit card transactions in the western United States. 
 
 - **Bar Chart:** Use a bar chart to show the proportion of fraudulent versus non-fraudulent transactions by category. This provides a clear visual representation of the percentage of fraud.
 
+![alt text](Visualizations/PercentageofFraud_piechart.png)
+
 - **Bar Chart:** Use a bar chart to show the proportion of fraudulent versus non-fraudulent transactions by state. This provides a clear visual representation of the percentage of fraud.
+
+![alt text](Visualizations/FraudChargePercentage_barchart.png)
 
 
 ### Task 3: Analyze the Timeline of Transactions (Michael)
 
 - Create a **Timeline Series Line Plot** of the transaction data to observe trends over time, focusing on identifying any patterns or changes in fraudulent average transaction amounts. 
+
+![alt text](Visualizations/AvgFraudAmount_timeseries.png)
   
-- **Time Series Line Plot:** Create a line plot showing the volume of transactions over time. This can help identify trends, seasonality, or any sudden spikes in transaction volume.
+- **Time Series Line Plot:** Create a line plot showing the volume of transactions over time. This can help identify trends, seasonality, or any sudden spikes in transaction volume. Do so by (Month-Year) data-points. 
+
+![alt text](Visualizations/FraudTransactionCount_timeseries.png)
 
 - **Patterns:** Look for seasonal trends (by season), around holidays and COVID shutdown trends. 
 
@@ -88,10 +96,21 @@ This dataset consists of credit card transactions in the western United States. 
 
 - **Bar Chart:** Create bar chart to display the fraud count for each top 10 merchant. This helps to illustrate the distribution of fraudulent transactions across merchants. By color-coding the bars according to the merchants' categories, the plot also provides insight into which categories of merchants are more frequently involved in fraudulent activities. 
 
+![alt text](Visualizations/FraudCountPerMerchant_barchart.png)
+
+- **Bar Chart:** Create bar charts to display the percentage make-up of fraudulent transactions per state and category. 
+
+![alt text](Visualizations/StateCountsComparison_barchart.png)
+
+![alt text](Visualizations/CategoryCountsComparison_barchart.png)
+
 - **Box Plot Wisker Chart:** Create a wisker box plot chart to show the distribution of fraud counts per merchant in the dataset. 
+
+![alt text](Visualizations/FraudCountPerMerchant_boxplot.png)
 
 - **Map Plot:** visualizes data on fraudulent transactions across different geographic locations. This provides insights into where fraud is most concentrated by displaying the number of fraudulent transactions and total transaction amounts on an interactive map, with the ability to distinguish between different states through color coding. This is useful for identifying geographic hotspots of fraudulent activity and understanding regional patterns.
 
+(REFER TO VISUALIZATION MAP INSIDE JUPYTER NOTEBOOK)
 
 ### Task 5: Analyze Relationship Between Transaction Amount and Fraud Likelihood (Sergei)
 
@@ -99,15 +118,21 @@ This dataset consists of credit card transactions in the western United States. 
 
 - Use statistical tests or visualizations to explore any relationships between transaction amount and the likelihood of fraud.
 
-- **Scatter Plot** plot age grouping and mean of fraudelent amouts. 
+- **Scatter Plot** plot age grouping and mean of fraudelent amounts. 
+
+![alt text](Visualizations/MeanFraudAmounts_scatterplot.png)
 
 - **Box Plot :** Use box plot to compare the distribution of transaction amounts between fraudulent and non-fraudulent transactions. 
+
+![alt text](Visualizations/TransactionAmounts_boxplot.png)
 
 ### Task BONUS: Analyze Relationship between Geopafy API and dataset (Sergei)
 
 - Using Geopafy API, locate closest police station to dataset merchant location and measure distance. 
 
-- Create a histogram to display the distribution of distances from merchant locations to the nearest police station. This will provide a straightforward view of how these distances vary across the dataset.
+- Create a ** Histogram** to display the distribution of distances from merchant locations to the nearest police station. This will provide a straightforward view of how these distances vary across the dataset.
+
+![alt text](Visualizations/DistanceToPoliceStation_histogram.png)
 
 
 ## Step 3: Collaborate and Document Findings
