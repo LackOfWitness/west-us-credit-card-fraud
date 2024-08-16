@@ -65,56 +65,58 @@ This dataset consists of credit card transactions in the western United States. 
 
 - **Descriptive Statistics:** Summarize the dataset using descriptive statistics (mean, median, mode, etc.) to understand the data distribution and detect any anomalies or outliers.
 
-### Task 2: Calculate Percentage of Fraudulent Transactions (Kim)
+### Task 2: Calculate Percentage of Fraudulent Transactions and Analyze Categories (Kim)
 
 - Calculate the percentage of transactions that are fraudulent by comparing the number of fraudulent transactions to the total number of transactions.
 
+- **Pie Chart:** Use a pie chart to show the proportion of fraudulent versus non-fraudulent transactions. This provides a clear visual representation of the percentage of fraud.
+
+![alt text](Visualizations/PercentageofFraud_piechart.png)
+
+- **Bar Chart:** Use a bar chart to show the proportion of fraudulent transaction amounts by category.
+
+![alt text](Visualizations/FraudChargePercentage_barchart.png)
+
 - **Bar Chart:** Use a bar chart to show the proportion of fraudulent versus non-fraudulent transactions by category. This provides a clear visual representation of the percentage of fraud.
 
-![alt text](Credit_Card_Fraud_Analysis-Team3-/Visualizations/PercentageofFraud_piechart.png)
-
-- **Bar Chart:** Use a bar chart to show the proportion of fraudulent versus non-fraudulent transactions by state. This provides a clear visual representation of the percentage of fraud.
-
-![alt text](Credit_Card_Fraud_Analysis-Team3-/Visualizations/FraudChargePercentage_barchart.png)
-
+![alt text](Visualizations/CategoryCountsComparison_barchart.png)
 
 ### Task 3: Analyze the Timeline of Transactions (Michael)
 
 - Create a **Timeline Series Line Plot** of the transaction data to observe trends over time, focusing on identifying any patterns or changes in fraudulent average transaction amounts. 
 
-![alt text](Credit_Card_Fraud_Analysis-Team3-/Visualizations/AvgFraudAmount_timeseries.png)
-
+![alt text](Visualizations/AvgFraudAmount_timeseries.png)
+  
 - **Time Series Line Plot:** Create a line plot showing the volume of transactions over time. This can help identify trends, seasonality, or any sudden spikes in transaction volume. Do so by (Month-Year) data-points. 
 
-![alt text](Credit_Card_Fraud_Analysis-Team3-/Visualizations/FraudTransactionCount_timeseries.png)
+![alt text](Visualizations/FraudTransactionCount_timeseries.png)
 
 - **Patterns:** Look for seasonal trends (by season), around holidays and COVID shutdown trends. 
 
-### Task 4: Analyze Merchants and Categories with Higher Fraud Incidence (Joseph & Micah)
+### Task 4: Analyze Merchants with Higher Fraud Incidence (Joseph)
 
 - Identify which top 10 merchants have the highest rates of fraud by calculating fraud incidences for each. Also capture the categories of these merchants and the states where the frauds occured.    
 
 - **Bar Chart:** Create bar chart to display the fraud count for each top 10 merchant. This helps to illustrate the distribution of fraudulent transactions across merchants. By color-coding the bars according to the merchants' categories, the plot also provides insight into which categories of merchants are more frequently involved in fraudulent activities. 
 
-![alt text](Credit_Card_Fraud_Analysis-Team3-/Visualizations/FraudCountPerMerchant_barchart.png)
-
-- **Bar Chart:** Create bar charts to display the percentage make-up of fraudulent transactions per state and category. 
-
-![alt text](Credit_Card_Fraud_Analysis-Team3-/Visualizations/StateCountsComparison_barchart.png)
-
-![alt text](Credit_Card_Fraud_Analysis-Team3-/Visualizations/CategoryCountsComparison_barchart.png)
-
+![alt text](Visualizations/FraudCountPerMerchant_barchart.png)
 
 - **Box Plot Wisker Chart:** Create a wisker box plot chart to show the distribution of fraud counts per merchant in the dataset. 
 
-![alt text](Credit_Card_Fraud_Analysis-Team3-/Visualizations/FraudCountPerMerchant_boxplot.png)
+![alt text](Visualizations/FraudCountPerMerchant_boxplot.png)
+
+### Task 5: Analyze State Date by Fraud Incidence (Micah)
+
+- **Bar Chart:** Create bar charts to display the fraud rates for each state. This can help highlight which states have higher fraud amounts.
+
+![alt text](Visualizations/StateCountsComparison_barchart.png)
 
 
-- **Map Plot:** visualizes data on fraudulent transactions across different geographic locations. This provides insights into where fraud is most concentrated by displaying the number of fraudulent transactions and total transaction amounts on an interactive map, with the ability to distinguish between different states through color coding. This is useful for identifying geographic hotspots of fraudulent activity and understanding regional patterns.
+- **Map Plot:** visualizes data on fraudulent transactions across different geographic locations. This provides insights into where fraud is most concentrated by displaying the number of fraudulent transactions  on an interactive map, with the ability to distinguish between different states through color coding. This is useful for identifying geographic hotspots of fraudulent activity and understanding regional patterns.
 
-(REFER TO VISUALIZATION MAP INSIDE JUPYTER NOTEBOOK)
+![alt text](Visualizations/FraudTransactions_MapPlot.png)
 
-### Task 5: Analyze Relationship Between Transaction Amount and Fraud Likelihood (Sergei)
+### Task 6: Analyze Relationship Between Transaction Amount and Fraud Likelihood (Sergei)
 
 - Analyze the distribution of transaction amounts for fraudulent versus non-fraudulent transactions.
 
@@ -122,11 +124,11 @@ This dataset consists of credit card transactions in the western United States. 
 
 - **Scatter Plot** plot age grouping and mean of fraudelent amounts. 
 
-![alt text](Credit_Card_Fraud_Analysis-Team3-/Visualizations/MeanFraudAmounts_scatterplot.png)
+![alt text](Visualizations/MeanFraudAmounts_scatterplot.png)
 
 - **Box Plot :** Use box plot to compare the distribution of transaction amounts between fraudulent and non-fraudulent transactions. 
 
-![alt text](Credit_Card_Fraud_Analysis-Team3-/Visualizations/TransactionAmounts_boxplot.png)
+![alt text](Visualizations/TransactionAmounts_boxplot.png)
 
 ### Task BONUS: Analyze Relationship between Geopafy API and dataset (Sergei)
 
@@ -134,7 +136,7 @@ This dataset consists of credit card transactions in the western United States. 
 
 - Create a ** Histogram** to display the distribution of distances from merchant locations to the nearest police station. This will provide a straightforward view of how these distances vary across the dataset.
 
-![alt text](Credit_Card_Fraud_Analysis-Team3-/Visualizations/DistanceToPoliceStation_histogram.png)
+![alt text](Visualizations/DistanceToPoliceStation_histogram.png)
 
 ## Step 3: Collaborate and Document Findings
 
@@ -168,3 +170,11 @@ This dataset consists of credit card transactions in the western United States. 
 ### Rehearse Presentation: (Team Collaboration)
 
 - Each team member presents their section of the analysis to ensure a smooth delivery.
+
+### CONCLUSION 
+
+- **Online Shopping** was the most active category for fraud, representing 4 of our top-ten most fraudulent merchants.
+- While most merchants had few fraud cases, Alaska had the highest detection accuracy.
+- People aged **51-70** were most at risk for large fraudulent transactions.
+- **Test Question:** Is there a relationship between the location of the fraudulent transaction and the nearest police station?
+- **Results:** While many transactions occurred within three kilometers, the p-value was less than .05 allowing us to suggest a correlation between the two variables.
