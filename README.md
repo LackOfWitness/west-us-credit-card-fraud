@@ -53,7 +53,7 @@ This dataset consists of credit card transactions in the western United States. 
 ### Load the Dataset:
 
 - Load the dataset into the notebook using `pandas`.
-- Decide whether to utilize VS Code version control branching to provide code using branching. 
+- Utilize VS Code version control branching to provide code using branching. 
 
 ## Step 2: Assign Tasks
 
